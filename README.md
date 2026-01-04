@@ -25,17 +25,6 @@ ESP32-based interface for the LD06 360-degree LIDAR sensor with real-time Python
 | LIDAR VCC | 5V |
 | LIDAR GND | GND |
 
-## Wiring Diagram
-
-```
-LD06 LIDAR          ESP32
----------           -----
-TX  ───────────────► GPIO 16 (RX2)
-PWM ◄─────────────── GPIO 5
-VCC ───────────────► 5V
-GND ───────────────► GND
-```
-
 ## Installation
 
 ### ESP32 Firmware
@@ -56,7 +45,7 @@ python visualise.py
 ## Usage
 
 1. Upload firmware to ESP32
-2. Connect LD06 LIDAR as per wiring diagram
+2. Connect LD06 LIDAR as per hardware table
 3. Run `python visualise.py`
 4. Select the serial port when prompted
 
